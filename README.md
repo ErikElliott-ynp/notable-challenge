@@ -3,7 +3,7 @@
 
 #### Please have 
 + Rails 5.2.3
-+ PostgresQL
++ PostgreSQL
 + Node
 
 #### To setup please run
