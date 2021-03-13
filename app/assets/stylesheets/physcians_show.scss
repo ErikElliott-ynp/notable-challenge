@@ -1,0 +1,41 @@
+.show-main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.show-header {
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 30px 0 15px 0;
+}
+
+.show-email {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.appointments-table {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px
+}
+
+.appointments-header {
+    background-color: blue;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-around;
+}
+
+.appointment-item {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.no-appointments {
+    margin-left: 200px;
+}

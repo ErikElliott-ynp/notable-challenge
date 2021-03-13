@@ -1,0 +1,18 @@
+# == Schema Information
+#
+# Table name: patients
+#
+#  id         :bigint           not null, primary key
+#  fname      :string           not null
+#  lname      :string           not null
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  fname: MyString
+  lname: MyString
+
+two:
+  fname: MyString
+  lname: MyString

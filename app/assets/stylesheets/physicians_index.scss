@@ -1,0 +1,42 @@
+.app {
+    display: flex;
+}
+
+.index-main {
+    background-color: lightgray;
+    height: 80vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px;
+    }
+    
+}
+
+.physician-items {
+    width:100%;
+    height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+.clicked {
+    background-color: blue;
+    color: white;
+}
+
+.notable-header {
+    color: blue;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
